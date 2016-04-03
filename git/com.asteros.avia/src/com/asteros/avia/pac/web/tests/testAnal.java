@@ -2,7 +2,7 @@ package com.asteros.avia.pac.web.tests;
 
 import org.testng.annotations.Test;
 
-public class testAdmin extends TestBase {
+public class testAnal extends TestBase {
 	
 	@Test
 	public void testChangeUserData() throws Exception {
