@@ -1,4 +1,4 @@
-package com.asteros.avia.pac.web.fw;
+package asteros.avia.pac.web.fw;
 
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
@@ -12,12 +12,11 @@ public class WebDriverHelper {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
-	public void stop() {
-		driver.close();
-	}
-
 	public WebDriver getDriver() {
 		return driver;
 	}
 
+	public void stop() {
+		driver.close();
+	}
 }

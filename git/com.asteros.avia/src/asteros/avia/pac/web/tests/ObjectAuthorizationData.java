@@ -1,4 +1,4 @@
-package com.asteros.avia.pac.web.tests;
+package asteros.avia.pac.web.tests;
 
 public class ObjectAuthorizationData {
 	public String userName;
